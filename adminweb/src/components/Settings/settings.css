@@ -1,0 +1,96 @@
+.search2{
+    /* height: 300px; */
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    margin-right: 20px ;
+    background-color: white;
+    margin-left: 20px;
+    /* padding-top: 25px;  */
+}
+.hh{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.hg{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgrey;
+    color: grey;
+    margin-bottom: 10px;
+}
+.form2{
+    /* width: 200px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.input-field{
+    margin:25px 0px 10px 25px;
+    position: relative;
+    height: 50px;
+    padding-right: 100px;
+    margin-left: 40px;
+}
+
+.input-field input{
+    height:100%;
+    width:100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    /* font-size:19px; */
+    padding-left: 20px;
+    font-size: 1em;
+    transition: .4s;
+}
+
+input:focus{
+ border: 1px solid #1DA1F2;
+}
+input:focus~span{
+    transform: translateY(-24px);
+    font-size: 16px;
+    background: white;
+    color:#1DA1F2;
+   }
+.input-field span{
+    position:absolute;
+    left: 0;
+    padding: 10px 2px 0px;
+    margin-left: 10px;
+    pointer-events: none;
+    color:grey;
+    font-size: 18px;
+    transition: .4s;
+}
+.hb{
+    height: 40px;
+    color: white;
+    border-bottom: 1px solid lightgrey;
+}
+.bt6{
+    align-self:flex-end ;
+    padding-right: 100px;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+.but6{
+    padding: 15px;
+    border-radius: 5px;
+    /* background-color:  #555555;*/
+    border: none;
+    background-color:#0a0a23;
+    color: #fff;
+}
+.ebt{
+margin-left: -40px;
+height: 40px;
+width:20px;
+background-color: white;
+color:black;
+border:none;
+}
+.ebt i{
+    font-size: 15px;
+}

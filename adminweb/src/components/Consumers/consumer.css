@@ -1,0 +1,81 @@
+/* .con{
+    display: flex;
+    justify-content: space-between;
+} */
+.con{
+    overflow: hidden;
+    height: 80px;
+    margin-left: 20px;
+}
+.h{
+    font-size: 40px;
+    font-weight: bold;
+    float:left;
+    color:  black;
+}
+.h2{
+    float:right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.but1{
+    min-height: 40px;
+    min-width: 120px;
+    align-items: center;
+    /* background-color: grey; */
+    background-color:  #008CBA;
+    color:white;
+    border:none;
+    border-radius: 10px;
+}
+.search1{
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    margin-right: 20px ;
+    background-color: white;
+    margin-left: 20px;
+}
+.searchbar{
+    height:50px;
+    width:500px;
+    margin-left:20px;
+    /* margin-bottom: 60px !important; */
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.searchbar i{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top:15px;
+    color: gray;
+}
+.searchbar input{
+    border: none;
+    outline: 0ch;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width:450px
+}
+
+.Tab{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.but2{
+    background-color: #FFA500;
+    min-height: 30px;
+    min-width: 60px;
+    border: none;
+    /* color: white; */
+}
+.but3{
+    background-color: #f44336;
+    min-height: 30px;
+    min-width: 60px;
+    margin-left: 10px;
+    border: none;
+    /* color: white; */
+}  

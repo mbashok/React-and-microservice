@@ -1,0 +1,126 @@
+.device{
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.deviceform{
+     margin-right: 20px;
+    color:#1f1f1f;
+     box-shadow: 0 0 5px rgba(0,0,0,0.8)
+}
+.ha{
+    padding-top: 10px;
+    background-color: #41607e;
+    /* background:  #727272; */
+    /* background-color:#CAF1DE; */
+    /* border-bottom: 1px solid #CAF1DE;; */
+    color:white;
+    padding-bottom: 8px;
+    font-weight: bolder;
+    height: 55px;
+    font-size: 24px;
+    transition: 0.5s;
+}
+.container56{
+    /* background-color: #41607e; */
+    /* background-color: #f8f8ff; */
+    /* background: rgb(234, 249, 230); */
+    /* background: #f7f7ef; */
+    background-color: #f3f2f2 ;
+    width:1000px;
+    /* background-color: #1868ae; */
+}
+.colum{
+  
+    display:flex;
+    flex-direction:row;
+    justify-items: center !important;
+    flex-wrap:wrap;
+    color:	#A9A9A9;
+    padding-top: 60px;
+}
+label {
+    display: inline-block;
+    width:180px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.item{
+
+    height:60px;
+}
+
+input {
+    height:22px;
+    }
+   .mn,
+    .uid{
+    width:220px;
+    margin-right: 78px;
+   } 
+   .md{
+    margin-right: 160px;
+    width:140px;
+   }
+   .sv{
+    width:140px;
+   }
+   /* .bs{
+    width:60px;
+    margin-right: 240px;
+   } */
+   .valuePadding {
+    border:1px solid grey;
+    color: black !important;
+    padding-right: 5px;
+    margin-right: 245px;
+    background-color: white;
+    height:20px !important;
+  }
+  .valuePadding input {
+    width: 30px;
+    height: 15px !important;
+    border: none;
+    outline: none;
+    margin:0px
+  }
+  .valuePadding  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+   .bh{
+    width:60px;
+   }
+   .bc{
+    width:60px;
+    margin-right: 240px;
+   }
+   .od{
+    width:120px;
+   }
+.item span {
+color: black;
+margin-left: 1px;
+}
+    .btn{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        /* background: white; */
+    }
+    .but5 {
+        border: none;
+        border-radius: 5px; 
+        background:  #41607e;
+        /* background-color:#CAF1DE; */
+        /* background-color: #2f4f4f ; */
+        font-size: 20px;
+        padding: 8px 8px;
+        color:white;
+        /* color: 	#484848; */
+        /* font-weight: bold; */
+        cursor: pointer;
+        }

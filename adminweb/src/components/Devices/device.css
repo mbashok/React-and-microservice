@@ -1,0 +1,133 @@
+/* .con{
+    display: flex;
+    justify-content: space-between;
+} */
+.con{
+    overflow: hidden;
+    height: 80px;
+    margin-left: 20px;
+}
+.h{
+    font-size: 40px;
+    font-weight: bold;
+    float:left;
+    color:  black;
+}
+.h2{
+    float:right;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.bt1{
+    min-height: 40px;
+    min-width: 120px;
+    align-items: center;
+    background-color:  grey;
+    color:white;
+    border:none;
+    border-radius: 10px;
+}
+.search1{
+    height: 100px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    margin-right: 20px ;
+    /* background-color: white; */
+    margin-left: 20px;
+    padding-top: 25px;
+}
+.searchbar{
+    height:50px;
+    width:500px;
+    margin-left:20px;
+    /* margin-bottom: 60px !important; */
+    border: 1px solid black;
+    border-radius: 10px;
+   
+}
+.searchbar i{
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top:15px;
+    color: gray;
+}
+.searchbar input{
+    /* border: none; */
+    /* outline: 0ch; */
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top:15px;
+    width:450px
+}
+.hey{
+    height:25px;
+    color: white;
+}
+.Tab{
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.but2{
+    background-color: #FFA500;
+    min-height: 30px;
+    min-width: 60px;
+    border: none;
+    /* color: white; */
+}
+.but3{
+    background-color: #f44336;
+    min-height: 30px;
+    min-width: 60px;
+    margin-left: 10px;
+    border: none;
+    /* color: white; */
+}  
+.active-modal {
+    overflow-y: hidden;
+}
+
+.btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+}
+.modal{
+    margin-top: 60px;
+}
+.modal, .overlay {
+ 
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49,49,49,0.8);
+}
+.modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    /* max-width: 1000px; */
+    min-width: 800px;
+    min-height: 600px;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+    margin-right: 10px;
+}
